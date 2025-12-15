@@ -353,6 +353,7 @@ class _DetailPageState extends State<DetailPage>
   }
 
   Widget _buildStatsTab(Color typeColor) {
+    // Tab menampilkan base stats
     final stats = [
       ('HP', 45),
       ('Attack', 49),
