@@ -80,6 +80,7 @@ class _DetailPageState extends State<DetailPage>
   Widget build(BuildContext context) {
     final typeColor = _getTypeColor(widget.type);
     return Scaffold(
+      // Scaffold untuk stuktur halaman
       body: SafeArea(
         child: Column(
           children: [
