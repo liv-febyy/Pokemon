@@ -313,6 +313,7 @@ class _DetailPageState extends State<DetailPage>
   }
 
   Widget _buildTypesTab(Color typeColor) {
+    // Tab menampilkan  informasi tipe pokemon
     return SingleChildScrollView(
       padding: EdgeInsets.all(20),
       child: Column(
