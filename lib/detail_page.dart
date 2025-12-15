@@ -421,6 +421,7 @@ class _DetailPageState extends State<DetailPage>
   }
 
   Widget _buildWeaknessTab(Color typeColor) {
+    // Tab menampilkan kelemahan  dan resistensi
     final weaknesses = ['Fire', 'Ice', 'Poison', 'Flying', 'Bug'];
     final resistances = ['Ground', 'Water', 'Grass'];
 
