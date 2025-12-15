@@ -1,3 +1,4 @@
+// Detail page untuk menampilkan informasi tentang sebuah pokemon
 import 'package:flutter/material.dart';
 
 class DetailPage extends StatefulWidget {
