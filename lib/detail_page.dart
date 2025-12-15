@@ -172,6 +172,7 @@ class _DetailPageState extends State<DetailPage>
                     ),
 
                     TabBar(
+                      // Tab navigasi untuk berbagai informasi pokemon
                       controller: _tabController,
                       labelColor: typeColor,
                       unselectedLabelColor: Colors.grey[400],
