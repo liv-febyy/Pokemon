@@ -470,6 +470,7 @@ class _DetailPageState extends State<DetailPage>
   }
 
   Widget _buildInfoSection(String title, List<(String, String)> items) {
+    // helper method untuk info section dengan label dan value
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
