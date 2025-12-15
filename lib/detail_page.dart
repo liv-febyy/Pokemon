@@ -35,6 +35,7 @@ class _DetailPageState extends State<DetailPage>
   }
 
   Color _getTypeColor(String type) {
+    //warna berdasarkan setiap tipe pokemon
     switch (type.toLowerCase()) {
       case 'grass':
         return Color(0xFF78C850);
