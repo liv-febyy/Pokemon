@@ -289,6 +289,7 @@ class _DetailPageState extends State<DetailPage>
   }
 
   Widget _buildDetailTab(typeColor) {
+    // Tab menampilkan informasi detail pokemon
     return SingleChildScrollView(
       padding: EdgeInsets.all(20),
       child: Column(
