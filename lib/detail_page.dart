@@ -208,6 +208,7 @@ class _DetailPageState extends State<DetailPage>
   }
 
   Widget _buildFormsTab(Color typeColor) {
+    // Tab menampilakn berbagai form
     return SingleChildScrollView(
       padding: EdgeInsets.all(20),
       child: Column(
